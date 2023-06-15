@@ -144,7 +144,7 @@ p{ font-size: 20px;}
 
 
 #skills{
-    border-radius: 30px;;
+    border-radius: 30px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
@@ -176,6 +176,14 @@ p{ font-size: 20px;}
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
+#featured-project{
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: var(--previewShadow);
+}
+
+  
 .thumbnail{
 	display: block;
 	width: 100%;
@@ -188,9 +196,10 @@ p{ font-size: 20px;}
     height:280px;
 	background-color: rgba(44, 77, 115, 0.861);
 	padding:15px;
-    
 }
-
+.post-preview#current-project{
+	text-align: center;
+}
 
 .post-title{
     text-align: center;
